@@ -7,7 +7,7 @@ s %>%
 
 s2 <- 
   s %>% 
-  group_by(BZT3)%>% 
+  group_by(BZT3) %>% 
   nest() 
 
 
