@@ -1,4 +1,4 @@
-st_read("s.shp")
+s <- st_read("s.shp")
 s %>% 
   group_by(BZT3 )%>% 
   nest() %>%
